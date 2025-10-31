@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //This is my C# Prep 1 Code
-        Console.WriteLine("Hello Sandbox World!");
+
         string firstName;
         string lastName;
 
@@ -15,6 +14,8 @@ class Program
         Console.WriteLine("Please enter your last name: ");
         lastName = Console.ReadLine();
 
-        Console.WriteLine($"Your full name is {firstName} {lastName}");    
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
+
+
