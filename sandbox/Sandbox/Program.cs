@@ -18,12 +18,12 @@ class Program
 
         int x = 10;
 
-        if (!(x == 11 || x == 12 && x == 13 ||!= 23))
+        if (!(x == 11 || x == 12 && x == 13 || x != 23))
             Console.WriteLine("X is 10");
 
         else if (x == 435)
         {
-            Console.WriteLine('Hey Joe');
+            Console.WriteLine("Hey Joe");
         }
         else
         {
