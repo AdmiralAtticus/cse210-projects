@@ -9,7 +9,7 @@ class Program
 
         List<int> numbers = new List<int>();
 
-        Console.WriteLine("Enter a list ofnumbers (type 0 to end):");
+        Console.WriteLine("Enter a list of numbers (type 0 to end):");
 
         int number = -1;
 

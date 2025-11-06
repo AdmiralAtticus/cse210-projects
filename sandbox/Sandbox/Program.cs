@@ -3,7 +3,7 @@ using System.Diagnostics.Contracts;
 
 class Program
 {
-    static void testValues(int x, float y, double z)
+    static void TestValues(int x, float y, double z)
     {
         Console.WriteLine($"Values are {x}, {y}, {z}");
     }
@@ -74,15 +74,15 @@ class Program
 
         // Lists
 
-        List<int> numbers = new List<int>();
-        numbers.Add(10);
-        numbers.Add(33);
-        numbers.Add(-33);
+        // List<int> numbers = new List<int>();
+        // numbers.Add(10);
+        // numbers.Add(33);
+        // numbers.Add(-33);
 
-        foreach(int n in numbers)
-        {
-            Console.WriteLine($"Numbers are : {n}");
-        }
+        // foreach (int n in numbers)
+        // {
+        //     Console.WriteLine($"Numbers are : {n}");
+        // }
 
 
     }
