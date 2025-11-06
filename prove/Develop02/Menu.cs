@@ -11,11 +11,19 @@ class Menu
         "5 - Quit"
     };
 
-    public void ProcessMenu()
+        /* Process Menu will display menu to the user, read and evaluate input, and return the input. No paramaters received in this method. */
+
+    public int ProcessMenu()
     {
-        foreach(string menuItem in _menuStrings)
+        int userSelection = 0;
+        do
         {
-            Console.WriteLine(menuItem);
-        }
+            foreach (string menuItem in _menuStrings)
+            {
+                Console.WriteLine(menuItem);
+            }
+            userSelection = int.Parse(Console.ReadLine());
+        } while (userSelection < 1 || userSelection > 5);
+        return userSelection;
     }
 }
