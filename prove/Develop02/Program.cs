@@ -19,12 +19,12 @@ class Program
             switch (userSelection)
             {
                 case 1:
-                // Create new entry object
-                // Call create on the object
-                // Add entry to journal
+                    JournalEntry journalEntry = new JournalEntry();
+                    journalEntry.CreateJournalEntry();
+                    journalEntry.Display();
                     break;
                 case 2:
-                // Call journal.Display()
+                // call 
                     break;
                 case 3:
                 // Save to a file
