@@ -10,3 +10,15 @@
 ### All statements **must** end with ";"
 ### Variables and datatypes: *int, string, float, double, bool, long*
 ### Formatted Strings: `int.Parse number.ToString()`
+
+## Encapsulation
+
+### Hide & Restrict Data to create a simpler experience for the user
+### UML Diagram Indicators: Public (+), Private (-)
+
+
+### Constructors
+
+ ## One constructor called for EACH object creation/installation
+ ## Default constructor - no parameters (e.g. Circle())
+ ## Non-Default constructor - has paramaters
