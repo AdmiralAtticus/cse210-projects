@@ -1,4 +1,6 @@
 using System;
+<<<<<<< HEAD
+=======
 
 class Program{
 
@@ -33,3 +35,4 @@ class Program{
         }
 }
 }
+>>>>>>> 4acb7ba44b389c8508b7e49f3e8f49b4fbd9b7b0
