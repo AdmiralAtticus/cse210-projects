@@ -18,5 +18,10 @@ class Program
         shapes.Add(rect);
         shapes.Add(circ);
 
+        foreach (Shape shape in shapes)
+        {
+            Console.WriteLine($"Color: {shape.GetColor()} | Area: {shape.GetArea()}");
+        }
+
     }
 }
