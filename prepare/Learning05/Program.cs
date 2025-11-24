@@ -5,11 +5,9 @@ class Program
     static void Main(string[] args)
     {
         Square sq = new Square("Red", 4);
-        Console.WriteLine($"Square Color: {sq.GetColor()}");
-        Console.WriteLine($"Square Area: {sq.GetArea()}");
-
 
         Rectangle rect = new Rectangle("Blue", 5, 3);
+
         Circle circ = new Circle("Green", 2.5);
 
 
