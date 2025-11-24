@@ -4,6 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+        Square sq = new Square("Red", 4);
+        Console.WriteLine($"Square Color: {sq.GetColor()}");
+        Console.WriteLine($"Square Area: {sq.GetArea()}");
+
+
+        Rectangle rect = new Rectangle("Blue", 5, 3);
+        Circle circ = new Circle("Green", 2.5);
+
+
+        List<Shape> shapes = new List<Shape>();
+        shapes.Add(sq);
+        shapes.Add(rect);
+        shapes.Add(circ);
+
     }
 }
