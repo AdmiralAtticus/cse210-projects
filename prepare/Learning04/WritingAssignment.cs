@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-
 public class WritingAssignment : Assignment
 {
     private string _title;
